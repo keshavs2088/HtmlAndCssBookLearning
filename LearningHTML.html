@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+    <head>
+        <title>This html is wriiten by me</title>
+    </head>
+    <body>
+        <h1 id="top">This is a heading</h1> <!--heading --> 
+        <hr>
+        <p>This is text line</p>    <!-- Paragraph -->
+        <h2>This is a sub heading</h2>
+        <p lang="en">This is <em>italic</em> another line   <!--Emaphasis tag. This helps the browser to emphasis on a specific thing and make it in etalics-->
+            but it is <strong>written</strong>             <!--used for bold. This shows the browser that it needs to be emphasised but not like EM. -->
+            like a paragraph
+        </p>
+        <p>This is a text where a part is <b>bold</b></p>   <!--Bold-->
+        <p>This is a text where a part is in <i>italics</i></p> <!--Italics-->
+        <h1 class="primary">This is another heading with class</h1> <!--Attribute-->
+        <p>Example of superscrpit is 28<sup>th</sup> June</p>       <!--superscript-->
+        <p>Exmaple od subscript is CO<sub>2</sub></p>       <!--Subscript-->
+        <p>This is an example<br/> of line breaking <br/><br/><br/> and spacing</p>     <!--Line breaking-->
+        <hr/>           <!--Horizontal breaking-->
+        <p>This is an example of <blockquote>This was said by me</blockquote>and the rest is simple</p>         <!--Blockquote is used to display a quote. It is usually shown in the next line and is indented-->
+        <p><q>This is a quotation</q></p>           <!--Q is used for quotation-->
+        <p><abbr title="Mister">Mr</abbr> Keshav Sharma</p>          <!--ABBR is used for abbreviations-->
+        <p><cite>Example for cite</cite></p>        <!--Cite tah is used for citing something. It is displayed in italics. It is used for citing a book or reference. USed for academins-->
+        <p><dfn>Blackhole</dfn> is a hole in space</p>          <!-- DFN is used when a new word is introduced in the document. Also used in academics-->
+        <p>This example is for <del>delete</del><ins>Insert</ins> and <s>strike</s></p>             <!-- Del and S are same. Both of them put a line through the text. It tells the browser that 1 is deleted while other is a strike through. INS is insert which is displayued via underline-->
+        <hr/>
+        <hr/>
+
+        <!------------------LISTS------------------------------>
+
+        <ol>          <!--Ordered list-->
+            <li>step 1</li>
+            <li>step 2</li>
+            <li>step 3</li>
+        </ol>
+
+        <ul>        <!--Unordered List-->
+            <li>point 1</li>
+            <li>point 2</li>
+            <li>point 3</li>
+        </ul>
+
+        <dl>       <!--Definition list-->
+            <dt>Butter chicken</dt>
+            <dd>Butter chicken is a type of curry made from chicken
+                 cooked in a spiced tomato and butter-based gravy. 
+                 The gravy is typically known for its creamy, rich texture. 
+                 It is similar to chicken tikka masala, which uses a 
+                 tomato paste. The dish originates in Delhi, India.
+            </dd>
+            <dt>Chicken curry</dt>
+            <dd>Chicken curry or curry/curried chicken is a 
+                South Asian dish originating from the Indian 
+                subcontinent. It is common in the cuisine of 
+                the Indian subcontinent, Caribbean, Southeast 
+                Asia, Great Britain, and South Africa.
+            </dd>
+        </dl>
+
+        <ul>
+            <li>Point 1</li>
+            <ul>
+                <li>Step 1</li>
+                <ol>
+                    <li>Sub-point 1</li>
+                </ul>
+            </ol>
+        </ul>
+        <hr/>
+        <hr/>
+
+        <!-----------------------------LINKS-------------------------------->
+
+        <a href="https://www.google.com/">Google</a>        <!--Linking to Other Sites-->
+        <br>
+        <a href="about.html">About section of the same website</a> <br>        <!--Linking to Other Pages on the Same Site. Pages must be in same folder or project. We do not need complete path-->
+        <a href="mailto:barkhahanda2011@gmail.com">Barkha's Email</a><br>           <!--Email someone-->
+        <a href="https://www.google.com/" target="_blank">Google on new window</a><br>      <!--Opens the link in new window-->
+        <a href="#top">Scroll up</a><br>        <!--Used to go toa point in specific page. Used for scrolling-->
+        <a href="https://www.w3schools.com/#footer">W3School Footer</a><br>         <!--Used to navigate to a specific location of a different website-->
+        <hr/>
+        <hr/>
+
+
+        <!-----------------------------IMAGES--------------------------------->
+        
+        
+        <img src="Image/Xmen.jpg" alt="Xmen poster" title="Xmen is a comic and this is the poster" width="200" height="300" /><br>
+        <p>This is an example where <img src="Image/Xmen.jpg" alt="Xmen poster" title="Xmen is a comin" width="100" height="100" /> is in a paragraph</p><br/>     <!--Image in a paragraph-->
+
+        <figure>
+            <img src="Image/Xmen.jpg" alt="Xmen poster" title="Xmen is a comin book" width="100" height="200" /><br/>       <!--We can have multiple images in figure as long as they have same caption-->
+            <figcaption>This is a Xmen poster</figcaption>
+        </figure>
+        <hr/>
+        <hr/>
+
+
+        <!------------------------------TABLES---------------------------------->
+
+
+        <h2>Normal Table</h2>
+        <table>
+            <tr>
+                <th scope="col">Series</th>
+                <th scope="col">Sunday</th>
+                <th scope="col">Monday</th>
+            </tr>
+            <tr>
+                <th scope="row">Time</th>
+                <td>10:30</td>
+                <td>12:30</td>
+            </tr>
+            <tr>
+                <th scope="row">Place</th>
+                <td>Home</td>
+                <td>Zoom</td>
+            </tr>
+        </table>
+
+        <h2>Spanning Rows and Coloumn</h2>
+        <table>
+            <tr>
+                <th scope="col">Serial number</th>
+                <th scope="col">Sunday</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td colspan="2">10:30</td>
+                <td>12:30</td>
+                <td>01:30</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <th rowspan="3">10:30</th>
+                <td>12</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>12</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>12</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+        </table>
+
+
+        <h2>Long Table</h2>             <!--This is used when a table is long. The head and foot will be diaplyed on the screen as static and the data will scroll in between. This is not mandatory. All browsers do not follow this rule-->
+        <table>
+            <thead>
+                <th scope="col">Serial</th>
+                <th scope="col">Sunday</th>
+                <th scope="col">Monday</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>40</td>
+                    <td>60</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Total</th>
+                    <td>50</td>
+                    <td>80</td>
+                </tr>
+            </tfoot>
+        </table>
+
+
+        <!---------------------------------FORMS------------------------------>
+
+        <!--GET is used for small forms or for retriving the data from the server-->
+        <!--POST is used when the form is big, user uploads a file, has passwords, add/delete info to database-->
+
+        <form action="https://www.example.com/login.php">               <!--Textbox with Username and password-->
+            <p>
+                Username: <input type="text" name="username"/><br/>
+                Password: <input type="password" name="password" maxlength="10"/>
+            </p>
+
+            <p>
+                <textarea name="Comment on your learning" cols="100" rows="5">Enter your comment</textarea>    <!--Text area-->
+            </p>
+
+            <p>
+                Please select the type of music<br/>                      <!--Radio button-->
+                <input type="radio" name="Music" value="Rock" checked="checked"/>Rock<br/>
+                <input type="radio" name="Music" value="Jazz"/>Jazz<br/>
+                <input type="radio" name="Music" value="Pop"/>Pop<br/>
+            </p>
+
+            <p>
+                Please select the type of Sport<br/>                        <!--CheckBox-->
+                <input type="checkbox" name="Sport" value="Chess" checked="checked"/>Chess<br/>
+                <input type="checkbox" name="Sport" value="Cricket"/>Cricket<br/>
+                <input type="checkbox" name="Sport" value="Baseball" checked="checked"/>Baseball<br/>
+            </p>
+
+
+            
+        </form>
+
+        
+
+    </body>
